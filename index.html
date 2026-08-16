@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cà Phê Tám Kết</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #121212;
+            color: #f3f4f6;
+        }
+        .glass-card {
+            background: rgba(30, 30, 30, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .hero-bg {
+            background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(18,18,18,1) 100%), url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="pb-24">
+
+    <!-- Header / Hero Section -->
+    <header class="hero-bg min-h-[75vh] flex flex-col justify-between p-5 relative">
+        <!-- Top bar -->
+        <div class="flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 rounded-full bg-amber-600 flex items-center justify-center font-bold text-xl shadow-lg shadow-amber-600/30">
+                    ☕
+                </div>
+                <span class="font-bold text-lg tracking-wide text-amber-500">TÁM KẾT</span>
+            </div>
+            <a href="tel:0354739357" class="bg-amber-600/80 backdrop-blur px-4 py-2 rounded-full text-sm font-semibold flex items-center gap-2 shadow-lg">
+                <i class="fa-solid fa-phone"></i> Gọi Ngay
+            </a>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="my-auto text-center space-y-4">
+            <span class="bg-amber-500/20 text-amber-400 text-xs font-semibold px-3 py-1 rounded-full border border-amber-500/30">
+                Giao Diện Di Động 5.0
+            </span>
+            <h1 class="text-4xl font-extrabold tracking-tight text-white">
+                Cà Phê <span class="text-amber-500">Tám Kết</span>
+            </h1>
+            <p class="text-gray-300 text-sm max-w-xs mx-auto">
+                Không gian ấm cúng, thức uống đậm đà vị quê hương, điểm hẹn âm nhạc cuối tuần tuyệt vời.
+            </p>
+            <div class="flex flex-col gap-2 text-xs text-gray-300 bg-black/40 p-3 rounded-xl border border-white/5">
+                <div class="flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-location-dot text-amber-500"></i>
+                    <span>Ấp Tân An, Xã Tân Thành Bình, Tỉnh Vĩnh Long</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone text-amber-500"></i>
+                    <span>0354739357</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll down indicator -->
+        <div class="text-center">
+            <i class="fa-solid fa-chevron-down text-amber-500 animate-bounce"></i>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="px-4 space-y-6 -mt-6 relative z-10">
+
+        <!-- NEW FEATURE: Hát Với Nhau -->
+        <section class="glass-card rounded-2xl p-5 border-l-4 border-amber-500 shadow-xl relative overflow-hidden">
+            <div class="absolute -right-6 -bottom-6 text-amber-500/10 text-9xl">
+                <i class="fa-solid fa-music"></i>
+            </div>
+            <div class="relative z-10">
+                <div class="flex items-center justify-between mb-3">
+                    <span class="bg-red-500/20 text-red-400 text-xs font-bold px-2.5 py-1 rounded-md animate-pulse">
+                        🔥 SỰ KIỆN MỚI
+                    </span>
+                    <span class="text-xs text-amber-400 font-semibold"><i class="fa-regular fa-clock"></i> 17:00 Chiều</span>
+                </div>
+                <h2 class="text-xl font-bold text-white mb-2 flex items-center gap-2">
+                    <i class="fa-solid fa-microphone-lines text-amber-500"></i> Hát Với Nhau Cuối Tuần
+                </h2>
+                <p class="text-gray-300 text-xs leading-relaxed mb-4">
+                    Thỏa mãn đam mê ca hát, giao lưu âm nhạc Acoustic vào **Cuối Chủ Nhật Hằng Tuần** tại quán. Đừng bỏ lỡ không gian âm nhạc tuyệt vời này nhé!
+                </p>
+                <div class="bg-neutral-900/80 p-3 rounded-xl text-xs space-y-1.5 border border-white/5">
+                    <div class="flex items-center gap-2 text-gray-300">
+                        <i class="fa-regular fa-calendar text-amber-500"></i> Chủ Nhật hằng tuần lúc **17:00 chiều**
+                    </div>
+                    <div class="flex items-center gap-2 text-gray-300">
+                        <i class="fa-solid fa-map-pin text-amber-500"></i> Ấp Tân An, Xã Tân Thành Bình, Tỉnh Vĩnh Long
+                    </div>
+                    <div class="flex items-center gap-2 text-gray-300">
+                        <i class="fa-solid fa-phone text-amber-500"></i> Đặt bàn/Đăng ký bài hát: **0354739357**
+                    </div>
+                </div>
+                <a href="tel:0354739357" class="mt-4 w-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-bold py-2.5 rounded-xl text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-600/30">
+                    <i class="fa-solid fa-headphones"></i> Đăng Ký Giao Lưu Ngay
+                </a>
+            </div>
+        </section>
+
+        <!-- Quick Actions / Google Maps -->
+        <section class="grid grid-cols-2 gap-3">
+            <a href="https://maps.app.goo.gl/cBw1TKYTPwpcN9dw7" target="_blank" class="glass-card p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 hover:border-amber-500/50 transition">
+                <div class="w-12 h-12 rounded-full bg-amber-500/20 text-amber-500 flex items-center justify-center text-xl">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <span class="font-bold text-sm text-white">Chỉ Đường</span>
+                <span class="text-[10px] text-gray-400">Xem Google Maps</span>
+            </a>
+            <a href="tel:0354739357" class="glass-card p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 hover:border-amber-500/50 transition">
+                <div class="w-12 h-12 rounded-full bg-green-500/20 text-green-400 flex items-center justify-center text-xl">
+                    <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <span class="font-bold text-sm text-white">Liên Hệ</span>
+                <span class="text-[10px] text-gray-400">0354739357</span>
+            </a>
+        </section>
+
+        <!-- Menu Highlights -->
+        <section class="glass-card rounded-2xl p-4">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-bold text-base text-white flex items-center gap-2">
+                    <i class="fa-solid fa-mug-hot text-amber-500"></i> Thức Uống Nổi Bật
+                </h3>
+                <span class="text-xs text-amber-500 font-medium">Menu phong phú</span>
+            </div>
+            
+            <div class="space-y-3">
+                <!-- Item 1 -->
+                <div class="flex justify-between items-center bg-neutral-900/60 p-3 rounded-xl border border-white/5">
+                    <div>
+                        <h4 class="font-semibold text-sm text-white">Cà Phê Đen / Sữa Đá</h4>
+                        <p class="text-[11px] text-gray-400">Đậm đà hương vị rang xay nguyên chất</p>
+                    </div>
+                    <span class="text-amber-500 font-bold text-sm">15.000đ</span>
+                </div>
+                <!-- Item 2 -->
+                <div class="flex justify-between items-center bg-neutral-900/60 p-3 rounded-xl border border-white/5">
+                    <div>
+                        <h4 class="font-semibold text-sm text-white">Bạc Xỉu Tám Kết</h4>
+                        <p class="text-[11px] text-gray-400">Thơm béo, ngọt ngào dễ uống</p>
+                    </div>
+                    <span class="text-amber-500 font-bold text-sm">20.000đ</span>
+                </div>
+                <!-- Item 3 -->
+                <div class="flex justify-between items-center bg-neutral-900/60 p-3 rounded-xl border border-white/5">
+                    <div>
+                        <h4 class="font-semibold text-sm text-white">Trà Đào Cam Sả</h4>
+                        <p class="text-[11px] text-gray-400">Thanh mát giải nhiệt ngày mới</p>
+                    </div>
+                    <span class="text-amber-500 font-bold text-sm">25.000đ</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Address & Contact Details -->
+        <section class="glass-card rounded-2xl p-4 text-center space-y-3">
+            <h3 class="font-bold text-sm text-white"><i class="fa-solid fa-store text-amber-500"></i> Thông Tin Quán</h3>
+            <p class="text-xs text-gray-300">
+                <strong>Địa chỉ:</strong> Ấp Tân An, Xã Tân Thành Bình, Tỉnh Vĩnh Long
+            </p>
+            <p class="text-xs text-gray-300">
+                <strong>Điện thoại / Hotline:</strong> <a href="tel:0354739357" class="text-amber-500 underline font-semibold">0354739357</a>
+            </p>
+            <div class="pt-2">
+                <a href="https://maps.app.goo.gl/cBw1TKYTPwpcN9dw7" target="_blank" class="inline-block bg-white/10 hover:bg-white/20 text-white text-xs font-semibold py-2 px-4 rounded-lg transition border border-white/10">
+                    <i class="fa-solid fa-location-arrow mr-1"></i> Mở Bản Đồ Google Maps
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-[10px] mt-8 mb-4">
+        &copy; 2026 Cà Phê Tám Kết. All rights reserved.
+    </footer>
+
+    <!-- Fixed Mobile Bottom Navigation Bar -->
+    <nav class="fixed bottom-0 left-0 right-0 glass-card border-t border-white/10 px-6 py-3 flex justify-between items-center z-50">
+        <a href="#" class="flex flex-col items-center text-amber-500 text-xs">
+            <i class="fa-solid fa-house text-lg"></i>
+            <span class="text-[10px] mt-0.5">Trang Chủ</span>
+        </a>
+        <a href="https://maps.app.goo.gl/cBw1TKYTPwpcN9dw7" target="_blank" class="flex flex-col items-center text-gray-400 hover:text-white text-xs">
+            <i class="fa-solid fa-map text-lg"></i>
+            <span class="text-[10px] mt-0.5">Bản Đồ</span>
+        </a>
+        <a href="tel:0354739357" class="flex flex-col items-center text-gray-400 hover:text-white text-xs">
+            <i class="fa-solid fa-phone text-lg"></i>
+            <span class="text-[10px] mt-0.5">Gọi Điện</span>
+        </a>
+    </nav>
+
+</body>
+</html>
